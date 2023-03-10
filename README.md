@@ -6,6 +6,8 @@ Al iniciar el programa se nos mostrara la interfaz realizada con Tkinter
 ![Ventana de inicio de adaline](https://github.com/Juanch1313/Adaline/blob/master/capturas/Inicio.png)
 
 Podremos cambiar la escala o la tasa de aprendizaje entre 0.001 a 0.005
-![Ventana de inicio de adaline](https://github.com/Juanch1313/Adaline/blob/master/capturas/Valores.png)
+![Cambios de valores](https://github.com/Juanch1313/Adaline/blob/master/capturas/Valores.png)
 
 Por ultimo al precionar el boton entrenar empezara a trabajar la neurona para filtrar la señal con ruido
+!![Cambios de valores](https://github.com/Juanch1313/Adaline/blob/master/capturas/Entrenada.png)
+Dando como resultado la filtracion de dicha señal
