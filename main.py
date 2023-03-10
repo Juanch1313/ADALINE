@@ -21,8 +21,8 @@ def draw_noise(scale):
     s = 1 * np.sin(x)
     y = 1 * np.sin(x) + n
     
-    ax.plot(x, y, label='Total', color='#39ff14')
-    ax.plot(x, s, label='Sine', color='#000000')
+    ax.plot(x, y, label='Total', color='#D4D943')
+    ax.plot(x, s, label='Sine', color='#023535')
     f.canvas.draw()
     pass
 
@@ -41,7 +41,7 @@ def adaline_train(lr):
         aux = adaline.predict(inputs[-1])
         output = np.append(output, aux)
         
-    ax.plot(x[:i+n_input+1], output, label="Adaline", color="#eb4034")
+    ax.plot(x[:i+n_input+1], output, label="Adaline", color="#D90710")
     ax.plot(x, s, label='Sine', color='#ffad1f')
     ax.legend()
     f.canvas.draw()
